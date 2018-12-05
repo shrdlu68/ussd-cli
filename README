@@ -1,0 +1,11 @@
+Silly little hack I use to run USSD sessions (AT+CUSD) in the command-line.
+Assumes the modem device file is /dev/ttyUSB0
+Works like a REPL, command replies are printed and your input is sent verbatim
+May be modified to run arbitrary AT commands.
+Usage:
+	ussd <code>
+
+For example
+	ussd *544#
+
+Enter \q to end the session.
